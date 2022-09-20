@@ -1,7 +1,8 @@
 package com.velocity.project;
 
  public class Quiz{
-	  class Quiz{
+	 class  Quiz{
+	 
 	
 		Performance per  = new Performance();
 	    Scanner sc=new Scanner(System.in);
@@ -86,4 +87,5 @@ package com.velocity.project;
 	    }
 	
 }
-}
+ }
+
