@@ -14,11 +14,11 @@ package com.velocity.project;
 	        Questions q3 = new Questions("Who invented Java Programming? ", "A. Guido van Rossum", "B. James Gosling", "C. Dennis Ritchie", "D. Bjarne Stroustrup");
 	        Questions q4 = new Questions("Which one of the following is not a Java feature?", "A. Object-oriented", "B. Use of pointers", "C. Portable", "D. Dynamic and Extensible");
 	        Questions q5 = new Questions("Which of these cannot be used for a variable name in Java?", "A. identifier & keyword", "B. identifier", "C. Keyword", "D. none of the mentioned");
-            Questions q6 = new Questions ("What is the size of float and double in java?","A.32 and 64","B.32 and 32","64 and 64","64 and 32");
-            Questions q7 = new Questions ("Identify the return type of a method that does not return any value?","A.int","B.void","C.double","D.None") ;   
-            Questions q8 = new 	Questions("An Interface with no fields or methods is known as a_____","A.Runnable Interface","B.Abstract Interface","C.Marker Interface","D.CharSequence Interface");
-            Questions q9 = new Questions ("Which of the following is the correct syntax to create a variable in java","A.var name;","B.int name;","C.var name int;","D.All of these");
-            Questions q10 = new Questions("Finally block is attached to?","A.Try-catch block","B.Class block","C.Method block","D.None of these");
+                Questions q6 = new Questions ("What is the size of float and double in java?","A.32 and 64","B.32 and 32","64 and 64","64 and 32");
+                Questions q7 = new Questions ("Identify the return type of a method that does not return any value?","A.int","B.void","C.double","D.None") ;   
+                Questions q8 = new 	Questions("An Interface with no fields or methods is known as a_____","A.Runnable Interface","B.Abstract Interface","C.Marker Interface","D.CharSequence Interface");
+                Questions q9 = new Questions ("Which of the following is the correct syntax to create a variable in java","A.var name;","B.int name;","C.var name int;","D.All of these");
+                Questions q10 = new Questions("Finally block is attached to?","A.Try-catch block","B.Class block","C.Method block","D.None of these");
             
 	        Map<Questions,Character> hmap=new HashMap<>();
 	        hmap.put(q1,'D');
