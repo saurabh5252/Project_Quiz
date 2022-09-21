@@ -3,7 +3,7 @@ package com.velocity.project;
 public class Performance {
 public static String  StudentName;
 public static int StudentScore;
-public static int StudentClass;
+public static String StudentClass;
 public static String getStudentName() {
 	return StudentName;
 }
@@ -16,10 +16,10 @@ public static int getStudentScore() {
 public static void setStudentScore(int studentScore) {
 	StudentScore = studentScore;
 }
-public static int getStudentClass() {
+public static String getStudentClass() {
 	return StudentClass;
 }
-public static void setStudentClass(int studentClass) {
+public static void setStudentClass(String studentClass) {
 	StudentClass = studentClass;
 }
 
